@@ -88,8 +88,31 @@ Notem que no bash, a branch saiu de (main) para (teste), o que significa que tod
 > Os comandos para adicionar, commit continuam os mesmos, contudo, no caso do push, precisamos alterar o nome da branch, agora, no caso, seria: ```git push origin teste```
 
 
-### Ferramentas do github para facilitar o versionamento de código
+## 5. Ferramentas do Github para facilitar o versionamento de código e colaboração 
+
+### 5.1 Github Desktop
+
+O Github Desktop é um Software do próprio Github para facilitar as operações de git, sem a necessidade de utilizar as linhas de comando. Nele é possível monitorar os arquivos alterados, realizar os commits e os pushs diretamente e até resolver conflitos. Além disso, permite criar branchs e clonar os repositórios diretamente.
+
+![alt text](image-4.png)
+
+>Eu, particularmente, uso essa ferramenta em 90% do tempo, principalmente pela praticidade.
+
+### 5.2 Issues
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+
+### 5.3 GitHub Projects
+
+![alt text](image-7.png)
+
+
+### 5.4 Pull Requests
 
 
 
-## 5. Fixando o conteúdo
+
+## 6. Fixando o conteúdo
