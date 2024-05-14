@@ -100,6 +100,10 @@ O Github Desktop é um Software do próprio Github para facilitar as operações
 
 ### 5.2 Issues
 
+O uso de issues do github é uma maneira muito interessante de separar as tarefas por problema a ser resolvido, seja ele de qual for o tamanho. Por meio da issue, é possível criar uma pagina de interação envolvendo o problema a ser resolvido, sendo possível, além disso, associar a projetos em andamento, milestones, definir quem está resolvendo aquela issues, além de permitir comentários sobre a issue, permitindo que revisores, usuário e outros desenvolvedores possam colaborar na resolução da issue. 
+
+Além disso, é possível associar uma branch diretamente à cada issue, criando uma ramificação por problema a ser resolvido, o que facilita a organização e ajuda no controle das versões.
+
 ![alt text](image-5.png)
 
 ![alt text](image-6.png)
@@ -107,12 +111,29 @@ O Github Desktop é um Software do próprio Github para facilitar as operações
 
 ### 5.3 GitHub Projects
 
+O GitHub Projects é uma ferramenta de organização de tarefas, podendo assumir vários formatos e organizações, como por data, listas de tarefas, e até quadro interativo, que é o formato mais comum de utilização. Essa ferramenta funciona diretamente com o conceito das issues. Permitindo que sejam classificadas por seu tamanho, prioridade, dificuldade, ou qualquer outro critério tomado. Com esse, é mais simples trabalhar com as issues, já que todas as issues estão, além de listadas, organizadas. 
+
 ![alt text](image-7.png)
 
 
 ### 5.4 Pull Requests
 
+Pull Request consiste, resumidamente em uma proposta de junção de branch. O PR, comumente chamado, é um pedido de que uma branch faça merge em outra. Geralmente uma branch mais externa com uma branch mais importante. Por exemplo: 
+
+![alt text](image-9.png)
 
 
+Se eu crio um Pull Request da branch: ```1-adicionar-topico-6``` para a ```main ```. Minha intenção é que as alterações realizadas na minha branch de issue sejam incorporadas na branch principal. Além disso, os Pull Requests permitem que vejamos se esse merge pode ser feito automaticamente e traz uma interface para que essas alterações sejam visualizadas graficamente. 
+
+![alt text](image-8.png)
+
+Outro detalhe interessante é que podem ser cadastrados revisores para cada Pull Request, solicitando que alguém revise manualmente o código antes de ser puxado pra a main.
+
+![alt text](image-10.png)
 
 ## 6. Fixando o conteúdo
+
+
+Para fixar o conteúdo, vamos utilxar um pequeno exercício, com o objetivo de fixar o conteúdo.
+
+Lembre de dar uma estrela no repositório.
