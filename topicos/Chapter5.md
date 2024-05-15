@@ -23,7 +23,7 @@ Além disso, é possível associar uma branch diretamente à cada issue, criando
 
 O GitHub Projects é uma ferramenta de organização de tarefas, podendo assumir vários formatos e organizações, como por data, listas de tarefas, e até quadro interativo, que é o formato mais comum de utilização. Essa ferramenta funciona diretamente com o conceito das issues. Permitindo que sejam classificadas por seu tamanho, prioridade, dificuldade, ou qualquer outro critério tomado. Com esse, é mais simples trabalhar com as issues, já que todas as issues estão, além de listadas, organizadas. 
 
-![alt text](image-7.png)
+![alt text](/assets/image-7.png)
 
 
 ### 5.4 Pull Requests
