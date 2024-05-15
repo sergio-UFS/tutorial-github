@@ -2,6 +2,15 @@
 
 Página de tutorial para guiar nas funcionalidades e conceitos mais importantes do git e ferramentas do github
 
+
+
+1. [Primeiramente: O que é o git e por que separar do github?](/topicos/Chapter1.md)
+2. [Instalando o git](/topicos/Chapter2.md)
+3. [Conexão com o GitHub](/topicos/Chapter3.md)
+4. [Versionamento do repositório](/topicos/Chapter4.md)
+5. [Ferramentas do Github para facilitar o versionamento de código e colaboração ](/topicos/Chapter5.md)
+5. [Fixando o conteúdo](/topicos/Chapter6.md)
+
 ## 1. Primeiramente: O que é o git e por que separar do github?
 
 Git é uma ferramenta de versionamento de códigos com base em ramificações de um código base, ou seja, o github usa git, assim como o gitLab, utiliza git. Chamamos o git por linha de comando de git CLI e pode ser baixado [aqui.](https://git-scm.com/)
@@ -25,7 +34,6 @@ Após baixar o git, basta apenas abrir e seguir os passos de instalação. Com i
 - Adicionar um arquivo .txt e preencher 
 - Abrir o git bash
 - Digitar ```git init``` (Esse comando serve para iniciar um repositório git localmente)
-
 
 
 Para registrar as alterações feitas, utilizamos um conjunto quase indispensável de comandos. (Depois de um tempo, já fica no automático 😂)
@@ -62,15 +70,15 @@ Aprendido como criar um repositório local, é importante saber como trazer um r
 
 Primeiramente, caso ainda não tenha um repositório que queira clonar do git, basta acessar o [Github](https://github.com) e criar um novo repositório.
 
-![alt text](image.png)
+![alt text](assets/image.png)
 
 É nessa tela que algumas configurações são definidas, como a visibilidade, o nome e a licença
 
-![alt text](image-1.png)
+![alt text](assets/image-1.png)
 
 Com o Repositório criado e o git instalado, basta que criemos uma pasta de interesse de onde esse repositório ficará e abrir o git bash. Feito isso, basta utilizar o comando ``` git clone <link do repositório>.git ```
 
-> O  link do repositório é o link dele no github com .git no final, também é encontrado ao clicar em code e https ![alt text](image-2.png)
+> O  link do repositório é o link dele no github com .git no final, também é encontrado ao clicar em code e https ![alt text](assets/image-2.png)
 
 
 ## 4. Versionamento do repositório
@@ -81,7 +89,7 @@ Para isso, é utilizada a lógica de branchs, que consiste em basicamente criar 
 
 No git, para criarmos uma branch, basta usar o comando ```git branch <nome da branch>```. E então, para nos deslocarmos para esta, usamos ```git checkout <nome da branch>```
 
-![alt text](image-3.png)
+![alt text](assets/image-3.png)
 
 Notem que no bash, a branch saiu de (main) para (teste), o que significa que todas as alterações feitas nessa nova branch, pertencerão a essa nova branch ao invés de alterar diretamente a main.
 
@@ -94,7 +102,7 @@ Notem que no bash, a branch saiu de (main) para (teste), o que significa que tod
 
 O Github Desktop é um Software do próprio Github para facilitar as operações de git, sem a necessidade de utilizar as linhas de comando. Nele é possível monitorar os arquivos alterados, realizar os commits e os pushs diretamente e até resolver conflitos. Além disso, permite criar branchs e clonar os repositórios diretamente.
 
-![alt text](image-4.png)
+![alt text](assets/image-4.png)
 
 >Eu, particularmente, uso essa ferramenta em 90% do tempo, principalmente pela praticidade.
 
@@ -104,32 +112,32 @@ O uso de issues do github é uma maneira muito interessante de separar as tarefa
 
 Além disso, é possível associar uma branch diretamente à cada issue, criando uma ramificação por problema a ser resolvido, o que facilita a organização e ajuda no controle das versões.
 
-![alt text](image-5.png)
+![alt text](assets/image-5.png)
 
-![alt text](image-6.png)
+![alt text](assets/image-6.png)
 
 
 ### 5.3 GitHub Projects
 
 O GitHub Projects é uma ferramenta de organização de tarefas, podendo assumir vários formatos e organizações, como por data, listas de tarefas, e até quadro interativo, que é o formato mais comum de utilização. Essa ferramenta funciona diretamente com o conceito das issues. Permitindo que sejam classificadas por seu tamanho, prioridade, dificuldade, ou qualquer outro critério tomado. Com esse, é mais simples trabalhar com as issues, já que todas as issues estão, além de listadas, organizadas. 
 
-![alt text](image-7.png)
+![alt text](assets/image-7.png)
 
 
 ### 5.4 Pull Requests
 
 Pull Request consiste, resumidamente em uma proposta de junção de branch. O PR, comumente chamado, é um pedido de que uma branch faça merge em outra. Geralmente uma branch mais externa com uma branch mais importante. Por exemplo: 
 
-![alt text](image-9.png)
+![alt text](assets/image-9.png)
 
 
 Se eu crio um Pull Request da branch: ```1-adicionar-topico-6``` para a ```main ```. Minha intenção é que as alterações realizadas na minha branch de issue sejam incorporadas na branch principal. Além disso, os Pull Requests permitem que vejamos se esse merge pode ser feito automaticamente e traz uma interface para que essas alterações sejam visualizadas graficamente. 
 
-![alt text](image-8.png)
+![alt text](assets/image-8.png)
 
 Outro detalhe interessante é que podem ser cadastrados revisores para cada Pull Request, solicitando que alguém revise manualmente o código antes de ser puxado pra a main.
 
-![alt text](image-10.png)
+![alt text](assets/image-10.png)
 
 ## 6. Fixando o conteúdo
 
